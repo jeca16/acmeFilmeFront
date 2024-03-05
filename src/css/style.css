@@ -1,0 +1,63 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(46, 0, 0);
+    background: linear-gradient(0deg, rgba(46, 0, 0, 1) 0%, rgba(246, 152, 152, 1) 100%);
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.perfil img {
+    width: 70px;
+    height: 70px;
+}
+
+.pesquisa img {
+    width: 50px;
+    height: 50px;
+}
+
+.Filme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.Filme p {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    font-style: normal;
+    color: white;
+}
+
+.filmes{
+    scroll-snap-type: x mandatory;
+    scroll-snap-type: y mandatory;
+    scroll-padding-left: 20px;
+    overflow: scroll;
+    display: grid;
+    width: 100%;
+    grid-auto-flow: column;
+    padding-left: 20px;
+    gap: 10px;
+}
+
+.card{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 200px;
+    height: 300px;
+} */
