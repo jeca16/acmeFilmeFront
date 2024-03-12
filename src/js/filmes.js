@@ -6,8 +6,21 @@ export async function getFilmes(){
 }
 
 export async function getFilme(id){
-    const url = `http://localhost:8080/v1/AcmeFilmes/filme/'${id}'`
+    const url = `http://localhost:8080/v2/AcmeFilmes/filmes/${id}`
     const response = await fetch (url)
     const data = await response .json()
     return data
+}
+
+export async function postFilme(filme){
+    const url = `http://localhost:8080/v2/AcmeFilmes/filme`
+    const options = {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(filme)
+    }
+    const response = await fetch(url, options)
+    return response.ok
 }
