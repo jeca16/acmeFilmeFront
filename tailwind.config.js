@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       fontFamily:{
         font: ['DM Serif Display']
+      },
+      background:{
+        'fundoLogin': "url('./src/img/backgroundLogin.webp')"
       }
     },
   },
