@@ -1,4 +1,4 @@
-import { getFilmes, getFilme, postFilme } from "./filmes.js"
+import { getFilmes, getFilme, postFilme, deleteFilme } from "./filmes.js"
 
 const filmes = [
     {
@@ -16,7 +16,7 @@ function criarCard(filme) {
     const card = document.createElement('div')
     const img = document.createElement('img')
     img.src = filme.foto_capa
-    img.classList.add('flex-shrink-0','w-50', 'h-56', 'transition', 'ease-in-out', 'delay-75', 'hover:shadow-2xl', 'hover:scale-110', 'rounded-lg')
+    img.classList.add('flex-shrink-0','w-50', 'h-56', 'transition', 'ease-in-out', 'delay-75', 'hover:shadow-2xl', 'hover:scale-110', 'rounded-lg', 'cursor-pointer')
 
 
 
@@ -42,7 +42,6 @@ async function preencherContainer() {
 }
 
 preencherContainer()
-
 
 
 //teste 

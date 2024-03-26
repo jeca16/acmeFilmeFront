@@ -39,7 +39,7 @@ export async function putFilme(filme){
 }
 
 export async function deleteFilme(id){
-    const url = `http://localhost:8080/v2/AcmeFilmes/filme/'${Id}'`
+    const url = `http://localhost:8080/v2/AcmeFilmes/filmes/delete/${id}`
     const options = {
         method: 'DELETE',
     }
