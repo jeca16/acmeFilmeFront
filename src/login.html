@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/login.css">
+    <script src="./js/login.js" defer></script>
     <title>Acme - Filmes </title>
 </head>
 <body class=" bg-gradient-to-t from-red-950 to bg-red-300 h-screen">
@@ -25,15 +26,15 @@
 
                 <div class="email">
                     <span id="spanEmail"> <img src="./img/image 33.png" alt=""></span>
-                    <input type="text" placeholder="email" class="inserir" >
+                    <input type="text" placeholder="email" class="inserir" id="email" >
                 </div>
 
                 <div class="senha">
                     <span id="spanSenha"> <img src="./img/image 34.png" alt=""></span>
-                    <input type="password" placeholder="senha" class="inserir" >
+                    <input type="password" placeholder="senha" class="inserir" id="senha" >
                 </div>
                 
-                <a href="./pages/home.html" target="_blank"><button class="bg-red-950 w-80 h-16 rounded-3xl text-white font-extralight text-4xl"> Login </button></a>
+                <a href="./pages/home.html" target="_blank"><button onclick = "validarLogin()" class="bg-red-950 w-80 h-16 rounded-3xl text-white font-extralight text-4xl"> Login </button></a>
                 
             </div>
 

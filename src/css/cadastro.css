@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.email{
+    display: flex;
+    flex-direction: row;
+    border-bottom:  1px solid black;
+    width: 15vw;
+    outline: none;
+}
+
+#spanEmail{
+ width: 40px;
+ height: 40px;
+}
+
+
+.userName{
+    display: flex;
+    flex-direction: row;
+    border-bottom:  1px solid black;
+    width: 15vw;
+    outline: none;
+}
+
+
+
+.senha{
+    display: flex;
+    flex-direction: row;
+    border-bottom:  1px solid black;
+    width: 15vw;
+    outline: none;
+}
+
+#spanSenha{
+    width: 30px;
+    height: 30px;
+}
+
+.inserir{
+    outline: none;
+}
