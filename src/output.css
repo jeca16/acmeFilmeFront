@@ -812,6 +812,10 @@ video {
   height: 2.5rem;
 }
 
+.h-14 {
+  height: 3.5rem;
+}
+
 .h-16 {
   height: 4rem;
 }
@@ -834,6 +838,10 @@ video {
 
 .h-80 {
   height: 20rem;
+}
+
+.h-96 {
+  height: 24rem;
 }
 
 .h-screen {
@@ -2016,10 +2024,6 @@ video {
   padding-bottom: 1rem;
 }
 
-.pr-48 {
-  padding-right: 12rem;
-}
-
 .pt-12 {
   padding-top: 3rem;
 }
@@ -2030,22 +2034,6 @@ video {
 
 .pt-5 {
   padding-top: 1.25rem;
-}
-
-.pr-36 {
-  padding-right: 9rem;
-}
-
-.pr-10 {
-  padding-right: 2.5rem;
-}
-
-.pr-12 {
-  padding-right: 3rem;
-}
-
-.pr-16 {
-  padding-right: 4rem;
 }
 
 .text-left {
@@ -2106,6 +2094,11 @@ video {
 
 .font-font {
   font-family: DM Serif Display;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-4xl {
