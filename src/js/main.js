@@ -46,15 +46,15 @@ preencherContainer()
 
 //teste 
 
-// const filme ={
-//     "nome": "frozen",
-//     "sinopse": "Acompanhada por um vendedor de gelo, a jovem e destemida princesa Anna parte em uma jornada por perigosas montanhas de gelo na esperança de encontrar sua irmã, a rainha Elsa, e acabar com a terrível maldição de inverno eterno, que está provocando o congelamento do reino",
-//     "duracao": "01:02:00",
-//     "data_lancamento": "2014-01-03",
-//     "data_relancamento": null,
-//     "foto_capa": "https://upload.wikimedia.org/wikipedia/pt/e/e5/Frozen_2013.png",
-//     "valor_unitario": 15
-// }
+const filme ={
+    "nome": "frozen",
+    "sinopse": "Acompanhada por um vendedor de gelo, a jovem e destemida princesa Anna parte em uma jornada por perigosas montanhas de gelo na esperança de encontrar sua irmã, a rainha Elsa, e acabar com a terrível maldição de inverno eterno, que está provocando o congelamento do reino",
+    "duracao": "01:02:00",
+    "data_lancamento": "2014-01-03",
+    "data_relancamento": null,
+    "foto_capa": "https://upload.wikimedia.org/wikipedia/pt/e/e5/Frozen_2013.png",
+    "valor_unitario": 15
+}
 
-// await postFilme(filme)
+await postFilme(filme)
 
