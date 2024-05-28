@@ -1,29 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../output.css">
+    <script src="../js/mainGenero.js" defer type="module"></script>
+    <script src="../js/genero.js" defer></script>
+    <link rel="stylesheet" href="../css/crudGenero.css">
     <title>Acme Filmes</title>
 </head>
+
 <body class="bg-slate-600">
     <header class=" flex flex-row justify-center pt-12">
         <div class="logo">
-            <img src="./img/image 16.png" alt="">
+            <img src="../img/image 16.png" alt="">
         </div>
     </header>
-    <main class="flex w-full items-center justify-center h-[70%] ">
-       <table class="table-auto bg-white border-separate border border-slate-400 w-[800px] h-[400px]">
-        <thead>
-            <tr>
-                <th class="border border-slate-100">nome</th>
-                <th class="border border-slate-100">sobre</th>
-                <th class="border border-slate-100">data de nascimento</th>
-                <th class="border border-slate-100 flex flex-row justify-center">data de falecimento <a href="./pages/adicionarAtor.html" target="_blank"><button class="pl-6"> <img src="../img/adicionar produto.png" class="w-5 h-5" alt=""></button></a></th>
-            </tr>
-        </thead>
-        <tbody>
-       </table>
+    <main class="flex w-full items-center justify-center h-[70%] flex-col ">
+
+        <table class="table-auto bg-white border-separate border border-slate-400 w-[800px] h-[400px]">
+            <thead>
+                <tr>
+                    <th class="border border-slate-100 flex flex-row justify-center"> nome <button class="pl-6" id="btn"
+                            type="button"> <img src="../img/adicionar produto.png" class="w-5 h-5" alt=""></button></th>
+                </tr>
+            </thead>
+            <tbody id="generos">
+
+            </tbody>
+        </table>
+
+        <div class="comentarios card w-[10vw] h-[10vh] bg-slate-700 text-[#FFFFFF]">
+            <div class="comentarios" id="container">
+                <div class="comentar">
+                    <div class="coment">
+                        <h1>Novo genero</h1>
+                        <input type="text" placeholder="nome Genero">
+                        <button>cadastrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 </body>
+
 </html>
